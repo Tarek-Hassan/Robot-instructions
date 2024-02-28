@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-require './../SimpleRobotMovement.php';
+require './../RobotMovement/SimpleRobotMovement.php';
 
 class RobotMovementTest extends TestCase
 {

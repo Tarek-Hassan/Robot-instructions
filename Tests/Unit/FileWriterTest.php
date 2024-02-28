@@ -2,7 +2,8 @@
 
 use PHPUnit\Framework\TestCase;
 
-require './../SimpleFileWriter.php';
+
+require './../FileWriter/SimpleFileWriter.php';
 
 class FileWriterTest extends TestCase
 {

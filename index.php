@@ -1,6 +1,6 @@
 <?php
-require 'SimpleRobotMovement.php';
-require 'SimpleFileWriter.php';
+require 'RobotMovement/SimpleRobotMovement.php';
+require 'FileWriter/SimpleFileWriter.php';
 
 do {
     $instructions = trim(readline("Enter The Robot instructions('F', 'B', 'R', 'L'): "));
